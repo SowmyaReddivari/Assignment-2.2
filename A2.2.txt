@@ -1,0 +1,35 @@
+Explain in detail:
+1 HDFS
+2 Hadoop cluster
+3 HDFS Blocks
+ 
+   1.HDFS :
+
+      * HDFS is faulttolerant and holds very large amount of data
+      * HDFS is a Java-based file system.
+      * It provides scalable and reliable data storage
+      * It is used for distributed storage and processing.
+      * Namenode and datanode are used by users to check the status of clusters.
+      * Streaming data access,Huge datasets,fault detection and recovery are goals of hdfs.
+      * HDFS is based on Google File System and java programming language is used.
+      * commodity hardware is used for running HDFS.
+   
+   2.Hadoop cluster:
+
+      * Hadoop cluster is a type of computational cluster.
+      * It is designed for storing and analyzing huge amount of unstructured data.
+      * Hadoop cluster run open source distributed software on commodity computers.
+      * Hadoop cluster have two machines as masters namely, NameNode and Job Tracker.
+      * Rest of the machines are both DataNode and TasTracker.
+      * Hadoop clusters are used for speeding up the data analysis process
+      * They are highly fault tolerent because data is copied onto other clusters.
+
+   3.HDFS Blocks:
+
+      * In HDFS large number of data is divided into small pieces of data,then these HDFS Blocks are used to store those small pieces of data.
+      * In HDFS all blocks are splited evenly that matches the predefined size of the block.
+      * HdFS blocks have fixed size.so,it is very easy to know how many blocks are stored.
+      * HDFS blocks can be easily replicated and it increases the fault tolerance.
+      * HDFS Blocks reduces the cost of seek time.
+      * The default size of HDFS Block is 64MB.
+      
